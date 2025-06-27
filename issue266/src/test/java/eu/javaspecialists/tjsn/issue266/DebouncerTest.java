@@ -23,12 +23,14 @@ import org.junit.jupiter.api.*;
 
 import java.util.concurrent.atomic.*;
 
+import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class DebouncerTest {
     private Debouncer<Runnable> makeDebouncer() {
         // Create Debouncer that only runs once a second
-        throw new UnsupportedOperationException("TODO");
+        // throw new UnsupportedOperationException("TODO");
+        return new DebouncerHeinz<>(Runnable::run, 1, SECONDS);
     }
 
     @Test

@@ -42,7 +42,6 @@
         </dependency>
     </dependencies>
 
-
     <modules>
         <module>issue003</module>
         <module>issue004</module>
@@ -52,16 +51,16 @@
         <module>issue010</module>
         <module>issue011</module>
         <module>issue012</module>
-        <module>issue013</module>
-        <module>issue014</module>
+        <!-- <module>issue013</module> needs Java 1.7 -->
+        <!-- <module>issue014</module> needs Java 1.7 -->
         <module>issue015</module>
         <module>issue016</module>
         <module>issue017</module>
-        <module>issue018</module>
+        <!-- <module>issue018</module> complex building setup -->
         <module>issue019</module>
         <module>issue020</module>
         <module>issue021</module>
-        <module>issue022</module>
+        <!-- <module>issue022</module> needs Java 1.7 -->
         <module>issue023</module>
         <module>issue024</module>
         <module>issue025</module>
@@ -72,9 +71,9 @@
         <module>issue032</module>
         <module>issue033</module>
         <module>issue034</module>
-        <module>issue035</module>
+        <!-- <module>issue035</module> needs Java 1.8 -->
         <module>issue036</module>
-        <module>issue037</module>
+        <!-- <module>issue037</module> needs Java 1.8 -->
         <module>issue040</module>
         <module>issue041</module>
         <module>issue042</module>
@@ -82,12 +81,12 @@
         <module>issue044</module>
         <module>issue045</module>
         <module>issue047</module>
-        <module>issue049</module>
+        <!-- <module>issue049</module> needs Java 1.8 -->
         <module>issue050</module>
         <module>issue053</module>
         <module>issue054</module>
         <module>issue056</module>
-        <module>issue058</module>
+        <!-- <module>issue058</module> needs Java 1.8 -->
         <module>issue059</module>
         <module>issue060</module>
         <module>issue061</module>
@@ -114,7 +113,7 @@
         <module>issue083</module>
         <module>issue084</module>
         <module>issue086</module>
-        <module>issue087</module>
+        <!-- <module>issue087</module> needs Java 1.8 -->
         <module>issue088</module>
         <module>issue089</module>
         <module>issue090</module>
@@ -125,7 +124,7 @@
         <module>issue095</module>
         <module>issue096</module>
         <module>issue097</module>
-        <module>issue098</module>
+        <!-- <module>issue049</module> needs Java 1.7 -->
         <module>issue099</module>
         <module>issue101</module>
         <module>issue102</module>
@@ -145,9 +144,9 @@
         <module>issue116</module>
         <module>issue117</module>
         <module>issue118</module>
-        <module>issue119</module>
+        <!-- <module>issue119</module> needs Java 1.8 -->
         <module>issue120</module>
-        <module>issue121</module>
+        <!-- <module>issue121</module> needs Java 1.8 -->
         <module>issue122</module>
         <module>issue123</module>
         <module>issue124</module>
@@ -184,16 +183,16 @@
         <module>issue157</module>
         <module>issue158</module>
         <module>issue159</module>
-        <module>issue160</module>
-        <module>issue161</module>
+        <!-- <module>issue160</module> needs Java 11 -->
+        <!-- <module>issue161</module> needs Java 1.8 -->
         <module>issue162</module>
         <module>issue163</module>
         <module>issue164</module>
         <module>issue165</module>
         <module>issue166</module>
         <module>issue167</module>
-        <module>issue168</module>
-        <module>issue169</module>
+        <!-- <module>issue168</module> needs Java 1.8 -->
+        <!-- <module>issue169</module> needs Java 1.8 -->
         <module>issue170</module>
         <module>issue171</module>
         <module>issue172</module>
@@ -208,7 +207,7 @@
         <module>issue181</module>
         <module>issue182</module>
         <module>issue183</module>
-        <module>issue184</module>
+        <!-- <module>issue185</module> needs Java 1.6 -->
         <module>issue185</module>
         <module>issue186</module>
         <module>issue187</module>
@@ -218,7 +217,7 @@
         <module>issue191</module>
         <module>issue192</module>
         <module>issue193</module>
-        <module>issue194</module>
+        <!-- <module>issue194</module> needs Java 1.8 -->
         <module>issue196</module>
         <module>issue197</module>
         <module>issue198</module>
@@ -230,7 +229,7 @@
         <module>issue207</module>
         <module>issue208</module>
         <module>issue209</module>
-        <module>issue210</module>
+        <!-- <module>issue210</module> needs Java 1.7 -->
         <module>issue211</module>
         <module>issue212</module>
         <module>issue213</module>
@@ -255,7 +254,7 @@
         <module>issue234</module>
         <module>issue235</module>
         <module>issue236</module>
-        <module>issue237</module>
+        <!-- <module>issue237</module> needs Java 1.8 -->
         <module>issue239</module>
         <module>issue240</module>
         <module>issue241</module>
@@ -282,7 +281,7 @@
         <module>issue269</module>
         <module>issue270</module>
         <module>issue271</module>
-        <module>issue272</module>
+        <!-- <module>issue272</module> needs Java 21 -->
         <module>issue273</module>
         <module>issue274</module>
         <module>issue275</module>
@@ -320,8 +319,8 @@
         <module>issue311</module>
         <module>issue312</module>
         <module>issue314</module>
-        <module>issue315</module>
-        <module>issue316</module>
+        <!-- <module>issue315</module> needs Java 21 -->
+        <!-- <module>issue316</module> needs Java 22 -->
         <module>issue317</module>
         <module>issue318</module>
         <module>issue319</module>

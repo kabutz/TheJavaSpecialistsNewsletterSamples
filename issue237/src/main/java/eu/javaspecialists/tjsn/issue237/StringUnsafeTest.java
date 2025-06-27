@@ -19,9 +19,9 @@
 
 package eu.javaspecialists.tjsn.issue237;
 
-//import sun.misc.*; // prior to Java 9, use this
+import sun.misc.*;
 
-import jdk.internal.misc.*;
+import jdk.internal.misc.*; // Java 9, use this
 
 public class StringUnsafeTest {
     private static String s;
