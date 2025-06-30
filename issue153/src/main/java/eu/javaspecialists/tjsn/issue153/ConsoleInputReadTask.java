@@ -22,20 +22,21 @@ package eu.javaspecialists.tjsn.issue153;
 import java.io.*;
 import java.util.concurrent.*;
 
+import java.util.Scanner;
+
 public class ConsoleInputReadTask implements Callable<String> {
     public String call() throws IOException {
-        BufferedReader br = new BufferedReader(
-                new InputStreamReader(System.in));
+        Scanner sc = new Scanner(System.in);
         System.out.println("ConsoleInputReadTask run() called.");
         String input;
         do {
             System.out.println("Please type something: ");
             try {
                 // wait until we have data to complete a readLine()
-                while (!br.ready()) {
+                while (!sc.hasNextLine()) {
                     Thread.sleep(200);
                 }
-                input = br.readLine();
+                input = sc.nextLine();
             } catch (InterruptedException e) {
                 System.out.println("ConsoleInputReadTask() cancelled");
                 return null;
