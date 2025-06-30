@@ -19,12 +19,11 @@
 
 package eu.javaspecialists.tjsn.issue153;
 
-import java.io.*;
 import java.util.concurrent.*;
 import java.util.Scanner;
 
 public class ConsoleInputReadTask implements Callable<String> {
-    public String call() throws IOException {
+    public String call() {
         Scanner sc = new Scanner(System.in);
         System.out.println("ConsoleInputReadTask run() called.");
         String input;
