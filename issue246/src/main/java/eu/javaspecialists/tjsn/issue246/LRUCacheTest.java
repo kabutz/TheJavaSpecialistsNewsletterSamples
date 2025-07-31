@@ -28,7 +28,7 @@ public class LRUCacheTest {
             cache.put(i, "hi");
         }
         // entries 0-4 have already been removed
-// entries 5-9 are ordered
+        // entries 5-9 are ordered
         System.out.println("cache = " + cache);
 
         System.out.println(cache.get(7));
@@ -39,7 +39,7 @@ public class LRUCacheTest {
             cache.put(i, "hi");
         }
         // entries 5,6,8,9 have been removed (eldest entries)
-// entry 7 is at the beginning now
+        // entry 7 is at the beginning now
         System.out.println("cache = " + cache);
 
         cache.put(42, "meaning of life");

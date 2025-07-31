@@ -19,7 +19,7 @@
 package eu.javaspecialists.tjsn.issue017.take1;
 
 public interface Constants {
-  int TRIANGLE_SHAPE = 0;
-  int RECTANGLE_SHAPE = 1;
-  int CIRCLE_SHAPE = 2;
+    int TRIANGLE_SHAPE = 0;
+    int RECTANGLE_SHAPE = 1;
+    int CIRCLE_SHAPE = 2;
 }

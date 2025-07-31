@@ -19,20 +19,20 @@
 package eu.javaspecialists.tjsn.issue017.take1;
 
 public class CADSystem implements Constants {
-  public void draw(Shape shape) {
-    switch(shape.type) {
-      case TRIANGLE_SHAPE: // some code which draws a triangle
-        System.out.println("Triangle with color " + shape.color);
-        break;
-      case RECTANGLE_SHAPE: // some code which draws a rectangle
-        System.out.println("Rectangle with color " +shape.color);
-        break;
-      case CIRCLE_SHAPE: // some code which draws a circle
-        System.out.println("Circle with color " + shape.color);
-        break;
-      default: // error only found at runtime
-        throw new IllegalArgumentException(
-          "Shape has illegal type " + shape.type);
+    public void draw(Shape shape) {
+        switch (shape.type) {
+            case TRIANGLE_SHAPE: // some code which draws a triangle
+                System.out.println("Triangle with color " + shape.color);
+                break;
+            case RECTANGLE_SHAPE: // some code which draws a rectangle
+                System.out.println("Rectangle with color " + shape.color);
+                break;
+            case CIRCLE_SHAPE: // some code which draws a circle
+                System.out.println("Circle with color " + shape.color);
+                break;
+            default: // error only found at runtime
+                throw new IllegalArgumentException(
+                        "Shape has illegal type " + shape.type);
+        }
     }
-  }
 }

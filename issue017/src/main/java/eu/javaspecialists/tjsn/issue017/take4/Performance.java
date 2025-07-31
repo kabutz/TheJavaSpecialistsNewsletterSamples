@@ -19,8 +19,6 @@
 package eu.javaspecialists.tjsn.issue017.take4;
 
 
-import eu.javaspecialists.tjsn.issue017.take4.TransactionType.*;
-
 import static eu.javaspecialists.tjsn.issue017.take4.TransactionType.*;
 
 public class Performance {

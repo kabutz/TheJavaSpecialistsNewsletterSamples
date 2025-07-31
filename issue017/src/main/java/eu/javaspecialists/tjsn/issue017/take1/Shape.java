@@ -19,6 +19,6 @@
 package eu.javaspecialists.tjsn.issue017.take1;
 
 public class Shape {
-  public int type;
-  public java.awt.Color color;
+    public int type;
+    public java.awt.Color color;
 }

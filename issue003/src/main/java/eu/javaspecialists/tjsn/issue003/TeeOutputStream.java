@@ -19,8 +19,6 @@
 
 package eu.javaspecialists.tjsn.issue003;
 
-// TeeOutputStream
-
 import java.io.*;
 
 public class TeeOutputStream extends FilterOutputStream {
