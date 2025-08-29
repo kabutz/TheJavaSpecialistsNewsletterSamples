@@ -27,7 +27,7 @@ import java.util.stream.*;
 public class PrimitiveShuffleCollectorTest {
     private static void printRandom(
             int from, int upto, Supplier<Random> randomSupplier) {
-        int[] shuffled = IntStream.range(0, 10)
+        int[] shuffled = IntStream.range(from, upto)
                 .boxed()
                 .collect(ShuffleCollector.shuffle(randomSupplier))
                 .limit(5)
