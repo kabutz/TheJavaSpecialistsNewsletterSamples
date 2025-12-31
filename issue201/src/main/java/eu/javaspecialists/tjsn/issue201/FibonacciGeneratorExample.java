@@ -41,7 +41,8 @@ public class FibonacciGeneratorExample {
                     1_000_000_000, // takes a bit long
             };
         }
-        test(new FibonacciRecursiveParallelDijkstraKaratsuba(pool), ns);
+        test(new FibonacciRecursiveParallelMultiply(), ns);
+        // test(new FibonacciRecursiveParallelDijkstraKaratsuba(pool), ns);
     }
 
     private static void test(Fibonacci fib, int... ns)
