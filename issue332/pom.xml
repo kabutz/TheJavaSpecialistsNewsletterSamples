@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>Issue332</artifactId>
+    <artifactId>issue332</artifactId>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
