@@ -335,6 +335,7 @@
         <module>issue329</module>
         <module>issue331</module>
         <module>issue332</module>
+        <module>issue334</module>
     </modules>
 
 </project>
