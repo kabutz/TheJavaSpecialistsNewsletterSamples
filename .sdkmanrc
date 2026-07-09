@@ -1,0 +1,14 @@
+# Enable auto-env through the sdkman_auto_env config
+# Add key=value pairs of SDKs to use below
+
+# Java
+java=25.ea.28-open
+
+# JBang
+jbang=0.126.3
+
+# Maven
+maven=3.9.10
+
+# VisualVM
+visualvm=2.1.10
