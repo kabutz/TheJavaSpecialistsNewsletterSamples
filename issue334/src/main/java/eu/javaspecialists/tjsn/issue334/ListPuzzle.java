@@ -5,7 +5,8 @@ import java.util.*;
 import java.util.function.*;
 
 public abstract class ListPuzzle {
-    void run(Supplier<? extends List<Integer>> supplier) {
+    public void run(
+            Supplier<? extends List<Integer>> supplier) {
         var tmb = ManagementFactory.getThreadMXBean();
         var tim = System.nanoTime();
         var cpu = tmb.getCurrentThreadCpuTime();
